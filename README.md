@@ -26,3 +26,10 @@ My issue: https://github.com/spacebagel/ROT13
 Stack: C
 
 ![image](https://github.com/user-attachments/assets/b711c624-cb48-46dd-b41e-8459b8fbd600)
+
+## 🤡️ #4 - Markov Chain
+My issue: https://github.com/spacebagel/markov_chain
+
+Stack: C
+
+![image](https://github.com/user-attachments/assets/a5b315b7-33a1-4c32-8490-870aac63ac05)
