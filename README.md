@@ -1,7 +1,5 @@
 #  Programming_Challenges
-Sources: 
-1) https://github.com/siliciusQ/Programming-challenges-v4.0/blob/project-4/programming_challenges_v4-0.png
-2) https://github.com/FreeCX/programming-challenges?tab=readme-ov-file
+Sources: https://github.com/siliciusQ/Programming-challenges-v4.0/blob/project-4/programming_challenges_v4-0.png
 
 ## 🎨 #96 - Generate a Complimentary Color From any input color
 My issue: https://github.com/spacebagel/ColorApp
