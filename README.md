@@ -39,3 +39,8 @@ My issue: https://github.com/spacebagel/Programming_Challenges/blob/main/markov_
 Stack: C
 
 ![image](https://github.com/user-attachments/assets/a5b315b7-33a1-4c32-8490-870aac63ac05)
+
+## 🤡 #45 - RPN Calculator
+My issue: https://github.com/spacebagel/Programming_Challenges/blob/main/rpn.py
+
+Stack: Python
