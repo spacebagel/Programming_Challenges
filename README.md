@@ -46,3 +46,11 @@ My issue: https://github.com/spacebagel/Programming_Challenges/blob/main/rpn.py
 Stack: Python
 
 ![image](https://github.com/user-attachments/assets/e8be5923-1cc1-477c-90b7-dfb5a4777d88)
+
+## 🤡️ #59 - Caesar Cipher Cracker (RU lang)
+My issue: https://github.com/spacebagel/Programming_Challenges/blob/main/caesarCracker.go
+
+Stack: Go
+
+![image](https://github.com/user-attachments/assets/2981db10-ccc8-40a6-97b8-628f2fd3af5d)
+
