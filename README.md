@@ -149,7 +149,7 @@
 
 Source: https://github.com/siliciusQ/Programming-challenges-v4.0/blob/project-4/programming_challenges_v4-0.png
 
-# Solutions
+# 💡 Solutions
 ## 🤡️ #4 - Markov Chain
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/markov_chains.c
 
