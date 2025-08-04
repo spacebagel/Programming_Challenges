@@ -1,4 +1,4 @@
-# Tasks 
+# 📝 Tasks 
 | № | Challenge | Difficulty | Status |
 |-----|-----------|------------|--------|
 | 1 | Download Manager | Medium | |
@@ -44,7 +44,7 @@
 | 41 | IP Tracking Visualiser | Medium | |
 | 42 | Port Scanner | Easy | |
 | 43 | Old School Demo Effect | Easy | |
-| 44 | FizzBuzz | Easy | |
+| 44 | FizzBuzz | Easy | :white_check_mark: |
 | 45 | RPN Calculator | Easy | :white_check_mark: |
 | 46 | Count occurrences of character in a string | Easy | |
 | 47 | Towers of Hanoi | Easy | |
@@ -163,6 +163,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/img_
 Stack: Python
 
 ![image](https://github.com/user-attachments/assets/2abe3c9e-8705-4e65-b512-06994dab23f1)
+
+## ➗ #44 - FizzBuzz
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/fizzbuzz.fs
+
+Stack: Forth
+
+![image](https://github.com/user-attachments/assets/3d309cc3-9705-4ccd-991f-0cd982cdbd98)
 
 ## 🤡 #45 - RPN Calculator
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/rpn.py
