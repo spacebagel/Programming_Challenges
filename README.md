@@ -66,7 +66,7 @@
 | 63 | Random Name Picker | Medium | |
 | 64 | Encrypt/Decrypt Text | Medium | |
 | 65 | Youtube to MP3 | Easy | |
-| 66 | Text to Hex/Binary | Easy | |
+| 66 | Text to Hex/Binary | Easy | :white_check_mark: |
 | 67 | Calculate the first 1,000 digits of Pi iteratively | Medium | |
 | 68 | Sierpinski Triangle | Easy | |
 | 69 | Mandelbrot Set | Medium | |
@@ -189,6 +189,13 @@ Stack: C
 My solution (ru lang): https://github.com/spacebagel/Programming_Challenges/blob/main/caesar.js
 
 Stack: JS
+
+## 👧 #66 - Text to Hex/Binary
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/text_converter.jl
+
+Stack: Julia
+
+![image](https://github.com/user-attachments/assets/3ae3497f-b096-4f73-8ce7-4008ffbfb272)
 
 ## 🎨 #96 - Generate a Complimentary Color From any input color
 My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/ColorApp
