@@ -202,7 +202,7 @@ Stack: Python
 +---+ +---+ +---+ +---+ +---+
 ```
 ## 📃 #138 - PDF-Tagger (In progress)
-My solution: https://github.com/spacebagel/PDF_meta_tagger
+My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/PDF_meta_tagger
 
 Stack: C#
 
