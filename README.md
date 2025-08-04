@@ -184,7 +184,7 @@ My solution (ru lang): https://github.com/spacebagel/Programming_Challenges/blob
 Stack: JS
 
 ## 🎨 #96 - Generate a Complimentary Color From any input color
-My solution: https://github.com/spacebagel/ColorApp
+My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/ColorApp
 
 Stack: C#, WPF
 
