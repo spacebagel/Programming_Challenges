@@ -18,7 +18,7 @@
 | 15 | Chatbot | Easy | |
 | 16 | Curses text editor | Medium | |
 | 17 | Paint clone | Medium | |
-| 18 | Image to ASCII Art | Easy | |
+| 18 | Image to ASCII Art | Easy | :white_check_mark: |
 | 19 | Booru (Image board) Image Downloader | Medium | |
 | 20 | Image Converter | Medium | |
 | 21 | ID3 Reader | Medium | |
@@ -156,6 +156,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/mark
 Stack: C
 
 ![image](https://github.com/user-attachments/assets/a5b315b7-33a1-4c32-8490-870aac63ac05)
+
+## 🪞 #18 - Image to ASCII Art
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/img_to_ascii.py
+
+Stack: Python
+
+![image](https://github.com/user-attachments/assets/2abe3c9e-8705-4e65-b512-06994dab23f1)
 
 ## 🤡 #45 - RPN Calculator
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/rpn.py
