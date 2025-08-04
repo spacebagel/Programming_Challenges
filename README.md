@@ -50,7 +50,7 @@
 | 47 | Towers of Hanoi | Easy | |
 | 48 | Music visualiser | Medium | |
 | 49 | Unicode Converter | Medium | |
-| 50 | Calculate the first (n) digits of pi | Easy | |
+| 50 | Calculate the first (n) digits of pi | Easy | :white_check_mark: |
 | 51 | Least squares fitting algorithm | Medium | |
 | 52 | Find the Time when a Given Stock was Most Valuable | Easy | |
 | 53 | Calculate the Highest Prime Factor | Easy | |
@@ -177,6 +177,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/rpn.
 Stack: Python
 
 ![image](https://github.com/user-attachments/assets/e8be5923-1cc1-477c-90b7-dfb5a4777d88)
+
+## 𝝅 #50 - Calculate the first (n) digits of pi
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/calcPi.nim
+
+Stack: Nim
+
+![image](https://github.com/user-attachments/assets/971dcd9a-2b01-4280-8ad7-031c2add9c3f)
 
 
 ## 🤡️ #59 - Caesar Cipher Cracker (RU lang)
