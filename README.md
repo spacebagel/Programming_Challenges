@@ -145,7 +145,7 @@
 | 142 | Seam Carving | Medium | |
 | 143 | Bayesian Filter | Medium | |
 | 144 | WMS Viewer NOT Web Based | Difficult | |
-| 145 | ASCII Digital Clock | Easy | |
+| 145 | ASCII Digital Clock | Easy | :white_check_mark: |
 
 Source: https://github.com/siliciusQ/Programming-challenges-v4.0/blob/project-4/programming_challenges_v4-0.png
 
@@ -243,3 +243,10 @@ My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/PDF_
 Stack: C#
 
 ![image](https://github.com/user-attachments/assets/be0312f0-88c4-489d-87c0-983a1b6fe5f0)
+
+## ⏲️ #145 - ASCII Digital Clock
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/ASCIIClock.cr
+
+Stack: Crystal
+
+![image](https://github.com/user-attachments/assets/aa1c9b6c-cdf5-48bd-ae23-af77c0825bf4)
