@@ -46,7 +46,7 @@
 | 43 | Old School Demo Effect | Easy | |
 | 44 | FizzBuzz | Easy | :white_check_mark: |
 | 45 | RPN Calculator | Easy | :white_check_mark: |
-| 46 | Count occurrences of character in a string | Easy | |
+| 46 | Count occurrences of character in a string | Easy | :white_check_mark: |
 | 47 | Towers of Hanoi | Easy | |
 | 48 | Music visualiser | Medium | |
 | 49 | Unicode Converter | Medium | |
@@ -177,6 +177,14 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/rpn.
 Stack: Python
 
 ![image](https://github.com/user-attachments/assets/e8be5923-1cc1-477c-90b7-dfb5a4777d88)
+
+## 🤓 #46 - Count occurrences of character in a string
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/occurcount.adb
+
+Stack: Ada
+
+![image](https://github.com/user-attachments/assets/7f6bb1aa-5f98-486c-925f-3fdebb1e5cf0)
+
 
 ## 𝝅 #50 - Calculate the first (n) digits of pi
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/calcPi.nim
