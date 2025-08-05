@@ -18,9 +18,12 @@ digits = [
 [fH, mS, fH, rH, fH]
 ]
 
+isSynh = false
+
 while true
     puts "\033c"
     timeParts = Time.local.to_s("%H%M")
+    lastDigit = timeParts[3]
     result = ""
 
     (0..4).each do |digitElement|
@@ -37,7 +40,12 @@ while true
         result += "\n"
     end
 
-    puts result
-    puts ""
-    sleep 1.minutes
+    puts result + "\n"
+
+    if (isSynh)
+        sleep 1.minutes
+    else
+        sleep 1.seconds
+        isSynh = lastDigit != Time.local.to_s("%H%M")[3]
+    end
 end
