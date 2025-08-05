@@ -1,17 +1,18 @@
-with Ada.Text_IO; use Ada.Text_IO;
-with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
-with Ada.Text_IO.Unbounded_IO; use Ada.Text_IO.Unbounded_IO;
-with Ada.Containers.Indefinite_Ordered_Maps; 
+with Ada.Wide_Wide_Text_IO; use Ada.Wide_Wide_Text_IO;
+with Ada.Strings.Wide_Wide_Unbounded; use Ada.Strings.Wide_Wide_Unbounded;
+with Ada.Wide_Wide_Text_IO.Wide_Wide_Unbounded_IO; use Ada.Wide_Wide_Text_IO.Wide_Wide_Unbounded_IO;
+with Ada.Containers.Indefinite_Ordered_Maps;
 
 procedure OccurCount is
    package Character_Integer_Maps is new Ada.Containers.Indefinite_Ordered_Maps
-      (Key_Type     => Character,
-         Element_Type => Integer);
+      (Key_Type       => Wide_Wide_Character,
+       Element_Type   => Integer);
    use Character_Integer_Maps;
+   
    Letter_Map : Map;
-   User_Input : Unbounded_String;
+   User_Input : Unbounded_Wide_Wide_String;
    Found      : Boolean;
-   Temp_Char  : Character;
+   Temp_Char  : Wide_Wide_Character;
 begin
    Put("Enter string: ");
    Get_Line(User_Input); 
@@ -26,6 +27,10 @@ begin
    end loop;
 
    for Letter in Iterate(Letter_Map) loop
-          Put_Line("Key: " & Key(Letter) & ", Value: " & Integer'Image(Element(Letter)));
+         Put("Char: ");
+         Put(Key(Letter));
+         Put(", Count: ");
+         Put(Integer'Wide_Wide_Image(Element(Letter)));
+         New_Line;
    end loop;
-end OccurCount;
+end OccurCount; 
