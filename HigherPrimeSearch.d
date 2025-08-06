@@ -9,7 +9,7 @@ void main()
     readf("%d", &num);
     int prime;
 
-    while (num % 2 == 0)
+    while (num % 2 == 0 && num != 0)
     {
         prime = 2;
         num /= 2;
@@ -26,5 +26,8 @@ void main()
 
     if (num > 2) prime = num;
 
-    writef("%s\n", prime);
+    if (prime != 0)
+        writef("The highest prime is: %s\n", prime);
+    else
+        writef("The number hasn't a prime factor\n");
 }
