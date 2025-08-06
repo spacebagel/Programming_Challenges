@@ -53,7 +53,7 @@
 | 50 | Calculate the first (n) digits of pi | Easy | :white_check_mark: |
 | 51 | Least squares fitting algorithm | Medium | |
 | 52 | Find the Time when a Given Stock was Most Valuable | Easy | |
-| 53 | Calculate the Highest Prime Factor | Easy | |
+| 53 | Calculate the Highest Prime Factor | Easy | :white_check_mark: |
 | 54 | Hide and Extract Data in an Image (Basic Steganography) | Medium | |
 | 55 | Web page crawler | Medium | |
 | 56 | Password Generator (with user selectable options) | Easy | |
@@ -192,6 +192,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/calc
 Stack: Nim
 
 ![image](https://github.com/user-attachments/assets/971dcd9a-2b01-4280-8ad7-031c2add9c3f)
+
+## 🧮 #53 - Calculate the Highest Prime Factor
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/HigherPrimeSearch.d
+
+Stack: D
+
+![image](https://github.com/user-attachments/assets/dd63bb15-7394-4ede-9962-e9cc474a3057)
 
 
 ## 🤡️ #59 - Caesar Cipher Cracker (RU lang)
