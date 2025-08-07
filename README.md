@@ -111,7 +111,7 @@
 | 108 | Pipe Dreams | Medium | |
 | 109 | Pac-Man with Different Ghost Behaviours | Medium | |
 | 110 | Dragon Quest / Basic RPG Engine | Difficult | |
-| 111 | Rock Paper Scissors | Easy | |
+| 111 | Rock Paper Scissors | Easy | :white_check_mark: |
 | 112 | First-person Engine in OpenGL | Difficult | |
 | 113 | Shuffle a Deck of Cards with Visualisation | Medium | |
 | 114 | Simulate a Game of Tag using a Multi-agent System | Medium | |
@@ -232,6 +232,14 @@ My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/Colo
 Stack: C#, WPF
 
 ![image](https://github.com/spacebagel/ColorApp/assets/165411846/4c313e97-65e3-4cd1-b2bf-b76efa8c8a93)
+
+## ✂️ #111 - Rock Paper Scissors 
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/RPS.chpl
+
+Stack: Chapel
+
+![image](https://github.com/user-attachments/assets/8a636530-4246-4404-bb0d-bc51b3d0880a)
+
 ## 🎲 #123 - Yahtzee
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/yahtzee.py
 
