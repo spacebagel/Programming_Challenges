@@ -102,7 +102,7 @@
 | 99 | TI-86 Emulator | Difficult | |
 | 100 | N-Body Simulator | Medium | |
 | 101 | Eulerian Path | Easy | |
-| 102 | Draw a Spinning 3D Cube | Easy | |
+| 102 | Draw a Spinning 3D Cube | Easy | :white_check_mark: |
 | 103 | Cellular Textures | Easy | |
 | 104 | Knight's Tour | Medium | |
 | 105 | Monster Raising/Breeding Simulator | Difficult | |
@@ -232,6 +232,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/Colo
 Stack: C#, WPF
 
 ![image](https://github.com/spacebagel/ColorApp/assets/165411846/4c313e97-65e3-4cd1-b2bf-b76efa8c8a93)
+
+## 🎲 #102 - Spinning 3D Cube
+My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/3D_Cube
+
+Stack: JS, Three.js
+
+![image](https://github.com/user-attachments/assets/2c1ec99c-b1d9-4d4b-822a-3785a654b4b8)
 
 ## ✂️ #111 - Rock Paper Scissors 
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/RPS.chpl
