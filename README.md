@@ -123,7 +123,7 @@
 | 120 | Danmaku (Bullet Hell) Engine | Difficult | |
 | 121 | Roguelike Engine/Dungeon Generator | Difficult | |
 | 122 | Design a Game Engine in Unity | Easy | |
-| 123 | Yahtzee | Easy | |
+| 123 | Yahtzee | Easy | :white_check_mark: |
 | 124 | Oil Panic | Easy | |
 | 125 | Chess | Medium | |
 | 126 | Go | Difficult | :white_check_mark: |
