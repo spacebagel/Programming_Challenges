@@ -126,7 +126,7 @@
 | 123 | Yahtzee | Easy | :white_check_mark: |
 | 124 | Oil Panic | Easy | |
 | 125 | Chess | Medium | |
-| 126 | Go | Difficult | :white_check_mark: |
+| 126 | Go | Difficult | |
 | 127 | Connect Four | Easy | |
 | 128 | Mastermind | Medium | |
 | 129 | Missile Command Game | Medium | |
