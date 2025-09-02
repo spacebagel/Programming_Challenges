@@ -134,7 +134,7 @@
 | 131 | Breakout | Medium | |
 | 132 | Simon | Easy | |
 | 133 | LISP Interpreter | Difficult | |
-| 134 | Ulam Spiral | Easy | |
+| 134 | Ulam Spiral | Easy | :white_check_mark: |
 | 135 | Bellman-Ford Simulation with at least Five Vertices | Medium | |
 | 136 | Matrix Arithmetic | Medium | |
 | 137 | File Compression Utility (w/ GUI) | Medium | |
@@ -259,6 +259,15 @@ Stack: Python
 | B | | a | | g | | e | | l |
 +---+ +---+ +---+ +---+ +---+
 ```
+
+## 🌀 #134 - Ulam Spiral
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/ulam_spiral.lua
+
+Stack: Lua, LÖVE
+
+![image](https://github.com/user-attachments/assets/68ad1a02-49c3-4274-8196-551244d14711)
+
+
 ## 📃 #138 - PDF-Tagger (In progress)
 My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/PDF_meta_tagger
 
