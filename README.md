@@ -275,7 +275,7 @@ Stack: Lua, LÖVE
 ![image](https://github.com/user-attachments/assets/68ad1a02-49c3-4274-8196-551244d14711)
 
 
-## 📃 #138 - PDF-Tagger (In progress)
+## 📃 #138 - PDF-Tagger
 My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/PDF_meta_tagger
 
 Stack: C#
