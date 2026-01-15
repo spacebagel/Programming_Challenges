@@ -8,7 +8,7 @@
 | 5 | English Sentence Parser that Points to the Context of a Sentence | Medium | |
 | 6 | MIDI Player + Editor | Medium | |
 | 7 | Stock market simulator using Yahoo Data | Medium | |
-| 8 | Parametric/Graphic Equalizer for .wav files | Difficult | |
+| 8 | Parametric/Graphic Equalizer for .wav files | Difficult | |s
 | 9 | Graphing Calculator | Medium | |
 | 10 | To-do List Application | Easy | |
 | 11 | Verlet Integration | Difficult | |
@@ -239,6 +239,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/3D_C
 Stack: JS, Three.js
 
 ![image](https://github.com/user-attachments/assets/2c1ec99c-b1d9-4d4b-822a-3785a654b4b8)
+
+Alt solution: https://github.com/spacebagel/Programming_Challenges/blob/main/rotated_cube.html
+
+Stack: JS
+
+![image](https://github.com/user-attachments/assets/86e9feda-e34b-42c0-8cf7-d8b472f909cf)
+
 
 ## ✂️ #111 - Rock Paper Scissors 
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/RPS.chpl
