@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotated Cube</title>
+</head>
+
+<body style="background-color: #1A1A1A;">
+    <canvas id="printer"></canvas>
+    <script>
+        printer.width = 1000;
+        printer.height = 1000;
+        const ctx = printer.getContext("2d");
+        function clear() {
+            ctx.fillStyle = "#1A1A1A";
+            ctx.fillRect(0, 0, printer.width, printer.height);
+        }
+
+        function screen(p) {
+            return {
+                x: (p.x + 1) / 2 * printer.width,
+                y: (1 - (p.y + 1) / 2) * printer.height,
+            }
+        }
+
+        function scale({ x, y, z }) {
+            return {
+                x: x / z,
+                y: y / z,
+            }
+        }
+
+        const FPS = 120;
+        let dz = 2;
+        let angle = 0;
+
+        function translate_Z({ x, y, z }, dz) {
+            return { x, y, z: z + dz };
+        }
+
+        function rotate({ x, y, z }, angle) {
+            const c = Math.cos(angle);
+            const s = Math.sin(angle);
+            return {
+                x: x * c - z * s,
+                y,
+                z: x * s + z * c,
+            };
+        }
+
+        function line(p1, p2, color) {
+            ctx.lineWidth = 5;
+            ctx.strokeStyle = color;
+            ctx.beginPath();
+            ctx.moveTo(p1.x, p1.y);
+            ctx.lineTo(p2.x, p2.y);
+            ctx.stroke();
+        }
+
+        const coords = [
+            { x: 0.5, y: 0.5, z: 0.5 },
+            { x: -0.5, y: 0.5, z: 0.5 },
+            { x: -0.5, y: -0.5, z: 0.5 },
+            { x: 0.5, y: -0.5, z: 0.5 },
+            { x: 0.5, y: 0.5, z: -0.5 },
+            { x: -0.5, y: 0.5, z: -0.5 },
+            { x: -0.5, y: -0.5, z: -0.5 },
+            { x: 0.5, y: -0.5, z: -0.5 },
+        ]
+
+        const coords_mini = [
+            { x: 0.25, y: 0.25, z: 0.25 },
+            { x: -0.25, y: 0.25, z: 0.25 },
+            { x: -0.25, y: -0.25, z: 0.25 },
+            { x: 0.25, y: -0.25, z: 0.25 },
+            { x: 0.25, y: 0.25, z: -0.25 },
+            { x: -0.25, y: 0.25, z: -0.25 },
+            { x: -0.25, y: -0.25, z: -0.25 },
+            { x: 0.25, y: -0.25, z: -0.25 },
+        ]
+
+        const connections = [
+            [0, 1, 2, 3],
+            [4, 5, 6, 7],
+            [0, 4],
+            [1, 5],
+            [2, 6],
+            [3, 7]
+        ]
+
+        function frame() {
+            const dt = 1 / FPS;
+            angle += Math.PI * dt;
+            clear();
+            for (const f of connections) {
+                for (let i = 0; i < f.length; ++i) {
+                    const f1 = coords[f[i]];
+                    const f2 = coords[f[(i + 1) % f.length]];
+                    line(screen(scale(translate_Z(rotate(f1, angle), dz))), screen(scale(translate_Z(rotate(f2, angle), dz))), "#CCCCFF")
+                    
+                    const f1_mini = coords_mini[f[i]];
+                    const f2_mini = coords_mini[f[(i + 1) % f.length]];
+                    line(screen(scale(translate_Z(rotate(f1_mini, angle), -dz))), screen(scale(translate_Z(rotate(f2_mini, angle), dz))), "#63C5DA")
+                }
+            }
+            setTimeout(frame, 700 / FPS)
+        }
+
+        setTimeout(frame, 700 / FPS)
+    </script>
+</body>
+
+</html>
