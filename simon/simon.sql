@@ -61,8 +61,8 @@ BEGIN
         
         PERFORM pg_sleep(1);
     END LOOP;
-    RAISE INFO E'\033[H\033[J \033[2K \033[H%', 'Введите hi_simon(ОТВЕТ), чтобы ответить';
-	RAISE INFO E'\033[2K%', 'где ОТВЕТ - последовательность, вроде rbb (r - red, b - blue etc.)';
+    RAISE INFO E'\033[H\033[J \033[2K \033[H%', 'Enter: hi_simon(ANSWER) for the answer';
+	RAISE INFO E'\033[2K%', 'The ANSWER is sequance. For example: rbb (r - red, b - blue, b - blue)';
 END;
 $$ LANGUAGE plpgsql;
 
