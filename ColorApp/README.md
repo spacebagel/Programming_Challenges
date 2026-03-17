@@ -1,6 +1,6 @@
 # Task #96 - Generate Complementary Color
 
-![image](https://github.com/spacebagel/ColorApp/assets/165411846/4c313e97-65e3-4cd1-b2bf-b76efa8c8a93)
+![Invert color app screen](https://github.com/user-attachments/assets/2cf3b461-2e60-4590-af12-c19bce7971ec)
 
 ```
 Because RGB (0-255, 0-255, 0-255)
