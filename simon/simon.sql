@@ -30,29 +30,9 @@ BEGIN
                             ELSE 'b' 
                         END;
         v_last_seq := v_last_seq || current_char;
-        SELECT FORMAT('%s %s%s%s', 
-            CASE WHEN v_rnd <> 1 
-                 THEN MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 1)
-                 ELSE MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 5)
-            END,
-            CASE WHEN v_rnd <> 2
-                 THEN MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 2) 
-                 ELSE MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 6)
-            END,
-            E'\n',
-            FORMAT('%s %s',
-                CASE WHEN v_rnd <> 3
-                     THEN MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 3)
-                     ELSE MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 7)
-                END,
-                CASE WHEN v_rnd <> 4
-                     THEN MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 4)
-                     ELSE MAX(o.out_object_figure) FILTER (WHERE o.out_object_id = 8)
-                END
-            )
-        ) INTO result
-        FROM out_object o;
 
+		SELECT INTO result o.out_object_figure FROM out_object o WHERE o.out_object_id = v_rnd;
+    
         UPDATE game_history 
         SET last_seq = v_last_seq 
         WHERE game_history_id = (SELECT max(game_history_id) FROM game_history);
@@ -60,8 +40,13 @@ BEGIN
         RAISE INFO E'\033[2K \033[H%', result;
         
         PERFORM pg_sleep(1);
+
+		SELECT INTO result o.out_object_figure FROM out_object o WHERE o.out_object_id = 5;
+		RAISE INFO E'\033[2K \033[H%', result;
+		
+		PERFORM pg_sleep(1);
     END LOOP;
-    RAISE INFO E'\033[H\033[J \033[2K \033[H%', 'Enter: hi_simon(ANSWER) for the answer';
+    RAISE INFO E'\033[H\033[J \033[2K \033[HEnter: \033[36m select hi_simon(ANSWER)\033[0m for the answer';
 	RAISE INFO E'\033[2K%', 'The ANSWER is sequance. For example: rbb (r - red, b - blue, b - blue)';
 END;
 $$ LANGUAGE plpgsql;
@@ -87,18 +72,18 @@ BEGIN
     RAISE INFO '%', E'\033[2J\033[H';
     
     IF LOWER(user_answer) = LOWER(correct_seq) THEN
-        RAISE INFO E'\033[H\033[J \033[2K \033[92mNice! %\033[0m is right', correct_seq;
+        RAISE INFO E'\033[H\033[J \033[2KNice! \033[92m%\033[0m is right', correct_seq;
 		UPDATE game_history 
         SET score = LENGTH(correct_seq), game_status_id = 1
         WHERE game_history_id = (SELECT MAX(game_history_id) FROM game_history);
     ELSE
-        RAISE INFO E'\033[H\033[J \033[2K \033[H\033[91mBad news! Your answer: % ... The right answer: % \(-.-)/  \033[0m', user_answer, correct_seq;
+        RAISE INFO E'\033[H\033[J \033[2K \033[HBad news! Your answer: \033[91m%\033[0m is wrong. The right answer: % (-.-)', user_answer, correct_seq;
 		UPDATE game_history 
         SET score = LENGTH(correct_seq), game_status_id = 2
         WHERE game_history_id = (SELECT MAX(game_history_id) FROM game_history);
 		INSERT INTO game_history (game_status_id) VALUES (0);
     END IF;
     
-    RAISE INFO E'\033[2K \033[36mTry again: SELECT simon_game();\033[0m';
+    RAISE INFO E'\033[2KContinue: \033[36mSELECT simon_game();\033[0m';
 END;
 $$ LANGUAGE plpgsql;
