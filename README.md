@@ -132,7 +132,7 @@
 | 129 | Missile Command Game | Medium | |
 | 130 | Tron | Medium | |
 | 131 | Breakout | Medium | |
-| 132 | Simon | Easy | |
+| 132 | Simon | Easy | :white_check_mark: |
 | 133 | LISP Interpreter | Difficult | |
 | 134 | Ulam Spiral | Easy | :white_check_mark: |
 | 135 | Bellman-Ford Simulation with at least Five Vertices | Medium | |
@@ -231,7 +231,7 @@ My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/Colo
 
 Stack: C#, WPF
 
-![image](https://github.com/spacebagel/ColorApp/assets/165411846/4c313e97-65e3-4cd1-b2bf-b76efa8c8a93)
+![Invert color app screen](https://github.com/user-attachments/assets/2cf3b461-2e60-4590-af12-c19bce7971ec)
 
 ## 🎲 #102 - Spinning 3D Cube
 My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/3D_Cube
@@ -266,6 +266,13 @@ Stack: Python
 | B | | a | | g | | e | | l |
 +---+ +---+ +---+ +---+ +---+
 ```
+
+## #132 - Simon
+My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/simon
+
+Stack: SQL only
+
+![Simon Circle](https://github.com/user-attachments/assets/109c9835-3146-4bde-b21b-0d1fa0505d51)
 
 ## 🌀 #134 - Ulam Spiral
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/ulam_spiral.lua
