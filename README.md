@@ -56,7 +56,7 @@
 | 53 | Calculate the Highest Prime Factor | Easy | :white_check_mark: |
 | 54 | Hide and Extract Data in an Image (Basic Steganography) | Medium | |
 | 55 | Web page crawler | Medium | |
-| 56 | Password Generator (with user selectable options) | Easy | |
+| 56 | Password Generator (with user selectable options) | Easy | :white_check_mark: |
 | 57 | Vigenère cipher encryption/decryption | Medium | |
 | 58 | Game of Life | Medium | |
 | 59 | Caesar Cipher Cracker | Easy | :white_check_mark: |
@@ -206,6 +206,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/High
 Stack: D
 
 ![image](https://github.com/user-attachments/assets/dd63bb15-7394-4ede-9962-e9cc474a3057)
+
+## 🔐​ #56 - Password Generator
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/password_generator.gleam
+
+Stack: Gleam
+
+![image](https://github.com/user-attachments/assets/1e7c230a-b005-4444-bc8f-328ecc215f2e)
 
 ## 🤡️ #59 - Caesar Cipher Cracker (RU lang)
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/caesarCracker.go
