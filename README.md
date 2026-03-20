@@ -42,7 +42,7 @@
 | 39 | Trivial File Transfer Protocol (TFTP) Client | Medium | |
 | 40 | Markdown Editor | Medium | |
 | 41 | IP Tracking Visualiser | Medium | |
-| 42 | Port Scanner | Easy | |
+| 42 | Port Scanner | Easy | :white_check_mark: |
 | 43 | Old School Demo Effect | Easy | |
 | 44 | FizzBuzz | Easy | :white_check_mark: |
 | 45 | RPN Calculator | Easy | :white_check_mark: |
@@ -164,6 +164,14 @@ Stack: Python
 
 ![image](https://github.com/user-attachments/assets/2abe3c9e-8705-4e65-b512-06994dab23f1)
 
+## 🕵️‍♂️ #42 - Port Scanner
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/port_scanner.erl
+
+Stack: Erlang
+
+![image](https://github.com/user-attachments/assets/791e5f8f-0656-4d88-9764-395f34da3ec4)
+
+
 ## ➗ #44 - FizzBuzz
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/fizzbuzz.fs
 
@@ -185,7 +193,6 @@ Stack: Ada
 
 ![image](https://github.com/user-attachments/assets/7f6bb1aa-5f98-486c-925f-3fdebb1e5cf0)
 
-
 ## 𝝅 #50 - Calculate the first (n) digits of pi
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/calcPi.nim
 
@@ -199,7 +206,6 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/High
 Stack: D
 
 ![image](https://github.com/user-attachments/assets/dd63bb15-7394-4ede-9962-e9cc474a3057)
-
 
 ## 🤡️ #59 - Caesar Cipher Cracker (RU lang)
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/caesarCracker.go
@@ -246,7 +252,6 @@ Stack: JS
 
 ![image](https://github.com/user-attachments/assets/86e9feda-e34b-42c0-8cf7-d8b472f909cf)
 
-
 ## ✂️ #111 - Rock Paper Scissors 
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/RPS.chpl
 
@@ -267,7 +272,7 @@ Stack: Python
 +---+ +---+ +---+ +---+ +---+
 ```
 
-## #132 - Simon
+## 🧮 #132 - Simon
 My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/simon
 
 Stack: SQL only
@@ -280,7 +285,6 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/ulam
 Stack: Lua, LÖVE
 
 ![image](https://github.com/user-attachments/assets/68ad1a02-49c3-4274-8196-551244d14711)
-
 
 ## 📃 #138 - PDF-Tagger
 My solution: https://github.com/spacebagel/Programming_Challenges/tree/main/PDF_meta_tagger
