@@ -47,7 +47,7 @@
 | 44 | FizzBuzz | Easy | :white_check_mark: |
 | 45 | RPN Calculator | Easy | :white_check_mark: |
 | 46 | Count occurrences of character in a string | Easy | :white_check_mark: |
-| 47 | Towers of Hanoi | Easy | |
+| 47 | Towers of Hanoi | Easy | :white_check_mark: |
 | 48 | Music visualiser | Medium | |
 | 49 | Unicode Converter | Medium | |
 | 50 | Calculate the first (n) digits of pi | Easy | :white_check_mark: |
@@ -192,6 +192,13 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/occu
 Stack: Ada
 
 ![image](https://github.com/user-attachments/assets/7f6bb1aa-5f98-486c-925f-3fdebb1e5cf0)
+
+## 🤡 #47 - Tower of Hanoi
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/hanoi.rs
+
+Stack: Rust
+
+![image](https://github.com/user-attachments/assets/868a7d72-34c6-4a2d-b967-4b5a3ed45208)
 
 ## 𝝅 #50 - Calculate the first (n) digits of pi
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/calcPi.nim
