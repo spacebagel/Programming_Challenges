@@ -29,7 +29,7 @@
 | 26 | Password Manager | Medium | |
 | 27 | Create a torrent client (CLI or GUI) | Difficult | |
 | 28 | Booru Client | Difficult | |
-| 29 | Key Press Bot | Medium | |
+| 29 | Key Press Bot | Medium | :white_check_mark: |
 | 30 | IP/URL Obfuscification | Medium | |
 | 31 | Radix Base Converter (Convert a radix base to decimal) | Medium | |
 | 32 | Chan aggregator | Difficult | |
@@ -163,6 +163,15 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/img_
 Stack: Python
 
 ![image](https://github.com/user-attachments/assets/2abe3c9e-8705-4e65-b512-06994dab23f1)
+
+## ⬆️ #29 - Key Press Bot
+
+My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/key_press_arrow_bot.ino
+
+Stack: Arduino C
+
+![image](https://github.com/user-attachments/assets/f0382989-d4b7-4d24-a638-e2613add2d68)
+
 
 ## 🕵️‍♂️ #42 - Port Scanner
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/port_scanner.erl
