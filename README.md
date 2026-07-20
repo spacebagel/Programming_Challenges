@@ -10,7 +10,7 @@
 | 7 | Stock market simulator using Yahoo Data | Medium | |
 | 8 | Parametric/Graphic Equalizer for .wav files | Difficult | |s
 | 9 | Graphing Calculator | Medium | |
-| 10 | To-do List Application | Easy | |
+| 10 | To-do List Application | Easy | :white_check_mark: |
 | 11 | Verlet Integration | Difficult | |
 | 12 | TCP/UDP Chat Server + Client | Medium | |
 | 13 | Music streaming | Difficult | |
@@ -156,6 +156,14 @@ My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/mark
 Stack: C
 
 ![image](https://github.com/user-attachments/assets/a5b315b7-33a1-4c32-8490-870aac63ac05)
+
+## 🤖 #10 - To-do List Applicatio
+My solution: https://github.com/spacebagel/CheL.md
+
+Stack: Kotlin, Gemini 3.1 Pro
+
+![image](https://github.com/user-attachments/assets/972ba0d3-d881-4549-84e8-55dc1c785bd7)
+
 
 ## 🪞 #18 - Image to ASCII Art
 My solution: https://github.com/spacebagel/Programming_Challenges/blob/main/img_to_ascii.py
