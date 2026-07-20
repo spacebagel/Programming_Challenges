@@ -157,7 +157,7 @@ Stack: C
 
 ![image](https://github.com/user-attachments/assets/a5b315b7-33a1-4c32-8490-870aac63ac05)
 
-## 🤖 #10 - To-do List Applicatio
+## 🤖 #10 - To-do List App
 My solution: https://github.com/spacebagel/CheL.md
 
 Stack: Kotlin, Gemini 3.1 Pro
